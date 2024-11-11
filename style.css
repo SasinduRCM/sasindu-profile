@@ -336,7 +336,7 @@ header .mobile-nav {
 
 .project .container .content .projects {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -347,7 +347,7 @@ header .mobile-nav {
   padding: 16px;
   border: 2px solid #fff;
   border-radius: 12px;
-  height: 450px;
+  height: 700px;
 }
 
 .project .container .content .projects .card img {
@@ -364,7 +364,7 @@ header .mobile-nav {
 
 .project .container .content .projects .card .description h1 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .project .container .content .projects .card .description p {
@@ -379,6 +379,7 @@ header .mobile-nav {
   justify-content: space-between;
   align-items: center;
   margin-top: 12px;
+
 }
 
 .project .container .content .projects .card .description .action button {
@@ -391,7 +392,7 @@ header .mobile-nav {
   border-radius: 12px;
   background: transparent;
   color: #fff;
-  width: 25%;
+  width: 45%;
   transition: 0.3s linear;
 }
 
@@ -606,6 +607,22 @@ footer .container .link-container .navigation ul li a {
   footer .container .link-container {
     gap: 2rem;
   }
+  .project .container .content .projects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+  }
+  .skill .container .content .skills {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -617,7 +634,22 @@ footer .container .link-container .navigation ul li a {
   header .hamburger-menu {
     display: block;
   }
-
+  .project .container .content .projects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+  }
+  .skill .container .content .skills {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 50%;
+  }
   header .mobile-nav {
     position: absolute;
     display: flex;
@@ -699,6 +731,29 @@ footer .container .link-container .navigation ul li a {
 }
 
 @media screen and (max-width: 768px) {
+  .hero .container .content h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 48px;
+    width: 65%;
+  }
+  .project .container .content .projects {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 85%;
+  }
+  .skill .container .content .skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 50%;
+  }
   header .mobile-nav ul li {
     width: 35%;
   }
